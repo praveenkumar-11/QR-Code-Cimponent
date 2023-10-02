@@ -10,14 +10,27 @@ body{
     background-color: map-get($primary, "Light-gray");
 }
 
-#card{
-    width: 20rem;
-    .card-header{
-        background-color: map-get($primary, "White");
-        img{
-            width: auto;
-            height: 17.9375rem;
-            border-radius: 10px;
+.main-div{
+    height: 100vh;
+    align-items: center;
+    #card{
+        width: 20rem;
+        .card-header{
+            background-color: map-get($primary, "White");
+            img{
+                width: auto;
+                height: 17.9375rem;
+                border-radius: 10px;
+            }
+        }
+        .card-body{
+            h2{
+                font-weight: map-get($weights, "bold");
+            }
+            p{
+                font-size: 15px;
+                font-weight: map-get($weights, "light");
+            }
         }
     }
 }

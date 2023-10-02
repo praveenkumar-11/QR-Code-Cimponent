@@ -9,11 +9,22 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-#card {
+.main-div {
+  height: 100vh;
+  align-items: center;
+}
+.main-div #card {
   width: 20rem;
 }
-#card .card-header img {
+.main-div #card .card-header img {
   width: auto;
   height: 17.9375rem;
   border-radius: 10px;
+}
+.main-div #card .card-body h2 {
+  font-weight: 700;
+}
+.main-div #card .card-body p {
+  font-size: 15px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
