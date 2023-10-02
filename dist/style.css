@@ -14,17 +14,28 @@ body {
   align-items: center;
 }
 .main-div #card {
-  width: 20rem;
+  width: 21rem;
+  border-radius: 20px;
+}
+.main-div #card .card-header {
+  background: white;
+  border-radius: 20px 20px 0 0;
+  border: none;
+  margin-top: 1rem;
 }
 .main-div #card .card-header img {
   width: auto;
   height: 17.9375rem;
   border-radius: 10px;
 }
+.main-div #card .card-body {
+  margin-bottom: 2.6875rem;
+}
 .main-div #card .card-body h2 {
   font-weight: 700;
 }
 .main-div #card .card-body p {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 700;
+  color: hsl(220, 15%, 55%);
 }/*# sourceMappingURL=style.css.map */
